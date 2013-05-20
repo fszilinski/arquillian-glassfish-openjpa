@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Why the funny ids? Because OpenJPA will start with the id of 1. If we 
+	pre-insert a dataset with 1, OpenJPA will complain about a duplicate id. -->
+<dataset>
+	<person id="100" firstname="foo" lastname="bar" />
+	<person id="101" firstname="duke" lastname="java" />
+	<person id="1" firstname="firstname" lastname="lastname" />
+</dataset>
